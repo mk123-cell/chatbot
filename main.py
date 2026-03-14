@@ -6,6 +6,7 @@ from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 model = ChatOllama(model="tinyllama")
 
 st.title("Local AI Chatbot (Ollama + LangChain)")
+print("hello world")
 
 # initialize chat history
 if "messages" not in st.session_state:
